@@ -1,59 +1,95 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Stream Chromatica",
+      "link": "https://www.youtube.com/watch?v=A1cnWzwoK7Q&list=PL9K4gwmvtl1jSO34-fPWmq5OT7Soicmjj",
+      "cor": "#8F67B8",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Album of the year",
+        "url": "https://www.youtube.com/watch?v=A1cnWzwoK7Q&list=PL9K4gwmvtl1jSO34-fPWmq5OT7Soicmjj"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Stream Rain on Me",
+          "url": "https://www.youtube.com/watch?v=AoAm4om0wTs"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Chromatica I",
+          "url": "https://www.youtube.com/watch?v=A1cnWzwoK7Q"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Alice",
+          "url": "https://www.youtube.com/watch?v=wYLZq390IHg"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Stupid Love",
+          "url": "https://www.youtube.com/watch?v=5L6xyaeiV58"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Rain on Me",
+          "url": "https://www.youtube.com/watch?v=AoAm4om0wTs"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Free Woman",
+          "url": "https://www.youtube.com/watch?v=u_cIs0_C6nA"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Fun Tonight",
+          "url": "https://www.youtube.com/watch?v=zWzBcrniDRw"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Chromatica II",
+          "url": "https://www.youtube.com/watch?v=GkaNNFI2KLI"
+        },
+        {
+          "titulo": "911",
+          "url": "https://www.youtube.com/watch?v=-oI4_shsYnE"
+        },
+        {
+          "titulo": "Plastic Doll",
+          "url": "https://www.youtube.com/watch?v=RHtdG2M_W3M"
+        },
+        {
+          "titulo": "Sour Candy",
+          "url": "https://www.youtube.com/watch?v=Fc2qWBIToKU"
+        },
+        {
+          "titulo": "Enigma",
+          "url": "https://www.youtube.com/watch?v=G0Ys0bgcOuo"
+        },
+        {
+          "titulo": "Replay",
+          "url": "https://www.youtube.com/watch?v=ZTwpCLZLdRs"
+        },
+        {
+          "titulo": "Chromatica III",
+          "url": "https://www.youtube.com/watch?v=U4VUEdlaxhU"
+        },
+        {
+          "titulo": "Sine From Above",
+          "url": "https://www.youtube.com/watch?v=O9GUJ7Wqy3A"
+        },
+        {
+          "titulo": "1000 Doves",
+          "url": "https://www.youtube.com/watch?v=xIq6lpdO-Bw"
+        },
+        {
+          "titulo": "Babylon",
+          "url": "https://www.youtube.com/watch?v=bOuuMmlf_DE"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "A7X",
+      "cor": "black",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Avenged Sevenfold",
+        "url": "https://www.youtube.com/channel/UCFcqi7MrlzIp9RMTtUlxE8g"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "tonight the world dies",
+          "url": "https://www.youtube.com/watch?v=MIlcaLyt14w"
         },
         {
           "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
