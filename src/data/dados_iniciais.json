@@ -92,128 +92,140 @@
           "url": "https://www.youtube.com/watch?v=MIlcaLyt14w"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "victim",
+          "url": "https://www.youtube.com/watch?v=bQ1yhsYr-hg"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "exist",
+          "url": "https://www.youtube.com/watch?v=ei3P4JKAPIc"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "runaway",
+          "url": "https://www.youtube.com/watch?v=C8PWbm2oyF4"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "seize the day",
+          "url": "https://www.youtube.com/watch?v=-B2yzG6Gj0A"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Ghost",
+      "cor": "black",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Ghost B.C",
+        "url": "https://www.youtube.com/channel/UCAOiVaJJlH0Oduv48NN0mMA"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "He is",
+          "url": "https://www.youtube.com/watch?v=7hMaHDTw-pI"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Dance Macabre",
+          "url": "https://www.youtube.com/watch?v=7Gr63DiEUxw"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Square Hammer",
+          "url": "https://www.youtube.com/watch?v=VqoyKzgkqR4"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Kiss the Go Goat",
+          "url": "https://www.youtube.com/watch?v=qyxrzUe_TDM"
+        },
+        {
+          "titulo": "Mary on a Cross",
+          "url": "https://www.youtube.com/watch?v=bG_bk1kQoTI"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Nightwish",
+      "cor": "#2282B5",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Nightwish all eras",
+        "url": "https://www.youtube.com/user/Nightwishofficial"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Alpenglow",
+          "url": "https://www.youtube.com/watch?v=FrJvKZNEh7g"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "how's the Heart",
+          "url": "https://www.youtube.com/watch?v=F8vuyd9M2LU"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Creek Mary's Blood",
+          "url": "https://www.youtube.com/watch?v=kEILUXXlX4I"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "Last Ride of the Day",
+          "url": "https://www.youtube.com/watch?v=ShRPt1JBwKI"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Noise",
+          "url": "https://www.youtube.com/watch?v=LczGSoibRe8"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "Sandy e Junior",
+      "cor": "#8E0300",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
+        "text": "bananinha pra você yeah yeah",
+        "url": "https://www.youtube.com/channel/UC_ecSF69vOt38weoYRugydQ"
+      },
+      "videos": [
+        {
+          "titulo": "Turu Turu",
+          "url": "https://www.youtube.com/watch?v=tCvLOhusfwM"
+        },
+        {
+          "titulo": "A lenda",
+          "url": "https://www.youtube.com/watch?v=SBHv4ofaSts"
+        },
+        {
+          "titulo": "As Quatro Estações",
+          "url": "https://www.youtube.com/watch?v=G2gtONmxh4Q"
+        },
+        {
+          "titulo": "Não Ter",
+          "url": "https://www.youtube.com/watch?v=m1QeTuNPjxA"
+        },
+        {
+          "titulo": "Enroskkk",
+          "url": "https://www.youtube.com/watch?v=VkcCG2ccFbw"
+        }
+      ]
+    },
+    {
+      "titulo": "Top 5 - Assassins Creed",
+      "cor": "#8F033D",
+      "link_extra": {
+        "text": "pq só minha opnião importa",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Assassins Creed 2",
+          "url": "https://www.youtube.com/watch?v=_xkCPNECud8"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Assassins Creed - Revelations",
+          "url": "https://www.youtube.com/watch?v=8-Ixo7QXw_E"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Assassins Creed - Brotherhood",
+          "url": "https://www.youtube.com/watch?v=zzNs4-kRLaE"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Assassins Creed - Black Flag",
+          "url": "https://www.youtube.com/watch?v=OwVe4ZNeQZk"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Assassins Creed - Unity",
+          "url": "https://www.youtube.com/watch?v=xzCEdSKMkdU"
         }
       ]
     }
