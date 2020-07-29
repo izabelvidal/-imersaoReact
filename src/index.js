@@ -11,6 +11,7 @@ import {
 
 import Home from './pages/home/App';
 import CadastroVideo from './pages/cadastro/video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 // desafio -> criar uma página 404 legal
 const Pagina404 = () => (
@@ -24,6 +25,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" component={Home} exact/>
       <Route path="/cadastro/video" component={CadastroVideo}/>
+      <Route path="/cadastro/categoria" component={CadastroCategoria}/>
       <Route component={Pagina404}/>
     </Switch>
   </BrowserRouter>,
