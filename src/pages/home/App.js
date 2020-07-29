@@ -1,12 +1,12 @@
 import React from 'react';
-import Menu from './components/Menu/index.js';
+import Menu from '../../components/Menu/index.js';
 import dadosIniciais from './data/dados_iniciais.json';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer'
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer'
 
 
-function App() {
+function Home() {
   return (
     <div style={{ background: "#414141"}}>
       <Menu/>
@@ -49,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
