@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../../components/Menu/index.js';
-import dadosIniciais from './data/dados_iniciais.json';
+import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer'

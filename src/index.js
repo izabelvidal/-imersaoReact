@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './pages/Home';
-import CadastroVideo from './pages/cadastro/video';
+
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   BrowserRouter,
+  Switch,
+  Route
 } from "react-router-dom";
 
+import Home from './pages/home/App';
+import CadastroVideo from './pages/cadastro/video';
 
 // desafio -> criar uma página 404 legal
 const Pagina404 = () => (
@@ -24,7 +24,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" component={Home} exact/>
       <Route path="/cadastro/video" component={CadastroVideo}/>
-      <Route component={"Pagina404"}/>
+      <Route component={Pagina404}/>
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
