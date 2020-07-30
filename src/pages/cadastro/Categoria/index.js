@@ -1,16 +1,14 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 
 function CadastroCategoria() {
-  const [categorias, setCategorias] = useState(['teste']);
-
   const valoresIniciais = {
-    nome: 'Categorias Inicial',
+    nome: 'Categoria Inicial',
     descricao: 'Descrição Inicial',
     cor: '#bbb',
   }
-
+  const [categorias, setCategorias] = useState([]);
   const [values, setvalues] = useState(valoresIniciais);
 
   function setValue(chave, valor){
@@ -22,7 +20,7 @@ function CadastroCategoria() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {values}</h1>
+      <h1>Cadastro de Categoria: {values.nome}</h1>
 
       <form onSubmit={
         function handleSubmit(infosDoEvento){
@@ -38,9 +36,9 @@ function CadastroCategoria() {
             Nome da Categoria:
             <input
               type="text"
-              value={values}
+              value={values.nome}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
-                setValue('nome', infosDoEvento.target.valeu);
+                setValue('nome', infosDoEvento.target.value);
                 //setvalue(infosDoEvento.target.values);
               }}
             />
@@ -52,9 +50,9 @@ function CadastroCategoria() {
             Descrição:
             <textarea
               type="text"
-              value={values}
+              value={values.descricao}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
-                setvalues(infosDoEvento.target.value);
+                //setvalues(infosDoEvento.target.value);
               }}
           />
           </label>
@@ -65,7 +63,7 @@ function CadastroCategoria() {
             Cor:
             <input
               type="color"
-              value={values}
+              value={values.cor}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
                 setvalues(infosDoEvento.target.value);
               }}
