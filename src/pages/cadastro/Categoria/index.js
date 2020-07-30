@@ -4,18 +4,32 @@ import PageDefault from '../../../components/PageDefault';
 
 function CadastroCategoria() {
   const [categorias, setCategorias] = useState(['teste']);
-  const [nomeDaCategoria, setNomeDaCategoria] = useState('Filmes');
 
+  const valoresIniciais = {
+    nome: 'Categorias Inicial',
+    descricao: 'Descrição Inicial',
+    cor: '#bbb',
+  }
+
+  const [values, setvalues] = useState(valoresIniciais);
+
+  function setValue(chave, valor){
+    setvalues({
+      ...values,
+      [chave]: valor, // nome: 'valor'
+    })
+  }
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {nomeDaCategoria}</h1>
+      <h1>Cadastro de Categoria: {values}</h1>
 
       <form onSubmit={
         function handleSubmit(infosDoEvento){
           infosDoEvento.preventDefault();
           setCategorias([
-            ...categorias,nomeDaCategoria
+            ...categorias,
+            values
           ]);
         }
       }>
@@ -24,9 +38,10 @@ function CadastroCategoria() {
             Nome da Categoria:
             <input
               type="text"
-              value={nomeDaCategoria}
+              value={values}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
-                setNomeDaCategoria(infosDoEvento.target.value);
+                setValue('nome', infosDoEvento.target.valeu);
+                //setvalue(infosDoEvento.target.values);
               }}
             />
           </label>
@@ -37,9 +52,9 @@ function CadastroCategoria() {
             Descrição:
             <textarea
               type="text"
-              value={nomeDaCategoria}
+              value={values}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
-                setNomeDaCategoria(infosDoEvento.target.value);
+                setvalues(infosDoEvento.target.value);
               }}
           />
           </label>
@@ -50,9 +65,9 @@ function CadastroCategoria() {
             Cor:
             <input
               type="color"
-              value={nomeDaCategoria}
+              value={values}
               onChange={function funcaoHandlerQueOErroPediu(infosDoEvento){
-                setNomeDaCategoria(infosDoEvento.target.value);
+                setvalues(infosDoEvento.target.value);
               }}
             />
           </label>
