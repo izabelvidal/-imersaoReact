@@ -1,9 +1,8 @@
-/* eslint-disable react/button-has-type */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -12,10 +11,11 @@ function CadastroCategoria() {
     cor: '',
   };
   const [categorias, setCategorias] = useState([]);
-  const [values, setvalues] = useState(valoresIniciais);
+  const [values, setValues] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
-    setvalues({
+    // chave: nome, descricao, bla, bli
+    setValues({
       ...values,
       [chave]: valor, // nome: 'valor'
     });
@@ -28,6 +28,23 @@ function CadastroCategoria() {
     );
   }
 
+  // ============
+
+  useEffect(() => {
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
+
   return (
     <PageDefault>
       <h1>
@@ -35,34 +52,44 @@ function CadastroCategoria() {
         {values.nome}
       </h1>
 
-      <form onSubmit={
-        function handleSubmit(infosDoEvento) {
-          infosDoEvento.preventDefault();
-          setCategorias([
-            ...categorias,
-            values,
-          ]);
+      <form onSubmit={function handleSubmit(infosDoEvento) {
+        infosDoEvento.preventDefault();
 
-          setvalues(valoresIniciais);
-        }
-      }
+        setCategorias([
+          ...categorias,
+          values,
+        ]);
+
+        setValues(valoresIniciais);
+      }}
       >
 
         <FormField
           label="Nome da Categoria"
           type="text"
-          value={values.nome}
           name="nome"
+          value={values.nome}
           onChange={handleChange}
         />
 
         <FormField
-          label="Descrição"
-          type="textarea"
+          label="Descrição:"
+          type="????"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}
         />
+        {/* <div>
+          <label>
+            Descrição:
+            <textarea
+              type="text"
+              value={values.descricao}
+              name="descricao"
+              onChange={handleChange}
+            />
+          </label>
+        </div> */}
 
         <FormField
           label="Cor"
@@ -71,16 +98,28 @@ function CadastroCategoria() {
           value={values.cor}
           onChange={handleChange}
         />
+        {/* <div>
+          <label>
+            Cor:
+            <input
+              type="color"
+              value={values.cor}
+              name="cor"
+              onChange={handleChange}
+            />
+          </label>
+        </div> */}
 
         <Button>
           Cadastrar
         </Button>
       </form>
+
       <ul>
         {categorias.map((categoria, indice) => (
           // eslint-disable-next-line react/no-array-index-key
           <li key={`${categoria}${indice}`}>
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>
